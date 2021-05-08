@@ -19,7 +19,7 @@
         }
         stage('Analize') {
             steps {
-                echo 'SELF'
+                echo 'SELF -'
             } 
         }
     }
