@@ -14,7 +14,7 @@
         }    
         stage('Deploy') {
             steps {
-                echo 'Deploying the World'
+                echo 'Deploying the World in dev'
             } 
         }
         stage('Analize') {
