@@ -4,7 +4,7 @@
     stages {
         stage('Build') {
             steps {
-                echo 'Building the World by Sanoj404'
+                echo 'Building the World by Sanoj404 by qa'
             }
         }    
         stage('Test') {
