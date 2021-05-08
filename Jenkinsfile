@@ -4,7 +4,7 @@
     stages {
         stage('Build') {
             steps {
-                echo 'Building the World by Sanoj'
+                echo 'Building the World by Sanoj404'
             }
         }    
         stage('Test') {
@@ -15,6 +15,11 @@
         stage('Deploy') {
             steps {
                 echo 'Deploying the World'
+            } 
+        }
+        stage('Analize') {
+            steps {
+                echo 'SELF'
             } 
         }
     }
